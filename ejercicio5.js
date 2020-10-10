@@ -13,8 +13,8 @@ const getLongitud = (radio)=>{
 
 function Circulo(radio){
     this.radio = radio;
-    this.area = getArea(this.radio).toFixed(2);
-    this.longitud = getLongitud(this.radio).toFixed(2);
+    this.area = getArea(this.radio);
+    this.longitud = getLongitud(this.radio);
     this.showValores = console.log(`Area: ${this.area} - Longitud: ${this.longitud}`);
 }
 

@@ -8,5 +8,5 @@ const GetValorFuturo = (valor, tasa, periodo)=>{
 let valor = 1000;
 let tasa = 5;
 let periodo = 3;
-let valorFuturo = GetValorFuturo(valor, tasa, periodo).toFixed(2);
+let valorFuturo = GetValorFuturo(valor, tasa, periodo);
 console.log(`Valor Futuro de una inversión de S/.${valor} a una tasa de ${tasa}% en un periodo de ${periodo} años es: S/.${valorFuturo}`);
